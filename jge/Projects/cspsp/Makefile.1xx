@@ -6,14 +6,14 @@ CFLAGS = -O2 -G0 -Wall -DDEVHOOK -g
 CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti
 ASFLAGS = $(CXXFLAGS)
 
-INCDIR = ../../JGE/include ../../JGE/include/psp ../../JGE/include/psp/freetype2 ../../JGE/src
+INCDIR = ../../JGE/include ../../JGE/include/psp ../../JGE/include/psp/freetype2 ../../JGE/src C:/pspsdk/psp/sdk/include
 LIBDIR = ../../JGE/lib/psp
 LDFLAGS =
-LIBS = -lhgetools -ljge100 -lfreetype -ljpeg -lgif -lpng -lz -lm -lmad -lmikmod -lmmio -lpsppower -lpspmpeg -lpspaudiocodec -lpspaudiolib -lpspaudio -lpspgum -lpspgu -lpsprtc -lstdc++ -lpspwlan
+LIBS = -L../../JGE/lib/psp -lhgetools -ljge100 -lfreetype -ljpeg -lgif -lpng -lz -lm -lmad -lmikmod -lmmio -lpsppower -lpspmpeg -lpspaudiocodec -lpspaudiolib -lpspaudio -lpspgum -lpspgu -lpsprtc -lstdc++ -lpspwlan
 
 EXTRA_TARGETS = EBOOT.PBP
 PSP_EBOOT_TITLE = CSPSP
 PSP_EBOOT_ICON = icon.png
 
-PSPSDK=$(shell psp-config --pspsdk-path)
+PSPSDK=C:/pspsdk/psp/sdk
 include $(PSPSDK)/lib/build.mak
