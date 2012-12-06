@@ -6,7 +6,7 @@ Original source  : https://github.com/kevinbchen/cspsp
 =================================================================
 HOW TO COMPILE (on Windows) :
 1) Download PSPSDK (FROM HERE ONLY) : http://sourceforge.net/projects/minpspw/files/SDK%20%2B%20devpak/pspsdk%200.10.0/pspsdk-setup-0.10.0.exe/download
-2) Head to \cspsp\jge\Projects\cspsp and clean.bat
+2) Go to \cspsp\jge\Projects\cspsp and run clean.bat
 3) Commit your changes to the code.
 4) Compile (for 3xx kernel of course) by running mk3xx.bat
 5) Just wait till it finishes.
