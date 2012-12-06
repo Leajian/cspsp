@@ -11,7 +11,7 @@ HOW TO COMPILE (on Windows) :
 4) Compile (for 3xx kernel of course) by running mk3xx.bat
 5) Just wait till it finishes.
 5) Copy the created EBOOT.PBP to \cspsp\jge\Projects\cspsp\bin folder
-6) Copy and paste bin folder Desktop and rename it to CSPSP
+6) Copy and paste bin folder to Desktop and rename it to CSPSP
 7) Copy CSPSP to your Memory Stick on ms0:/PSP/GAME folder
 8) Run it on PSP.
 (To recompile, repeat steps 2-5)
