@@ -1,7 +1,10 @@
 ----------------------------------------------------------------
 Original website : http://cspsp.appspot.com/
 Original forums  : http://s4.zetaboards.com/CSPSP/index/
+Original guide   : http://s4.zetaboards.com/CSPSP/topic/9771063/1/
 Original source  : https://github.com/kevinbchen/cspsp
+Fixed source     : https://github.com/Leajian/cspsp
+Kevin's blog     : http://kevinbchen.blogspot.com/
 ----------------------------------------------------------------
 =================================================================
 HOW TO COMPILE (on Windows) :
@@ -9,15 +12,24 @@ HOW TO COMPILE (on Windows) :
 2) Go to \cspsp\jge\Projects\cspsp and run clean.bat
 3) Commit your changes to the code.
 4) Compile (for 3xx kernel of course) by running mk3xx.bat
-5) Just wait till it finishes.
-5) Copy the created EBOOT.PBP to \cspsp\jge\Projects\cspsp\bin folder
-6) Copy and paste bin folder to Desktop and rename it to CSPSP
-7) Copy CSPSP to your Memory Stick on ms0:/PSP/GAME folder
-8) Run it on PSP.
+5) Just wait till it finishes, PATIENTLY. If you encounter problems, read the log and fix them.
+	--------
+	If you want to sign the EBOOT.PBP, so that it'll run without the need of CFW (Custom Firmware) :
+
+	1) Go to \cspsp\sign_binaries and run once install.bat after the PSPSDK installation
+	2) Now you can run sign.bat from \cspsp\jge\Projects\cspsp to sign the EBOOT.PBP
+	--------
+6) Copy the created EBOOT.PBP to \cspsp\jge\Projects\cspsp\bin folder
+7) Copy and paste bin folder to Desktop and rename it to CSPSP
+8) Copy CSPSP to your Memory Stick on ms0:/PSP/GAME folder
+9) Run it on PSP.
 (To recompile, repeat steps 2-5)
+
 =================================================================
-Fixed to original source by kamil09875 : http://s4.zetaboards.com/CSPSP/profile/3738995/
+Fixes to original source by kamil09875 : http://s4.zetaboards.com/CSPSP/profile/3738995/
 Uploaded on GitHub by Leajian
+Small fixes and tweaks by Leajian
+For full credits list, head to Original guide...
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CSPSP is a homebrew game for the Sony PSP, originally based heavily on Valve's popular Counter-Strike game. It's a two-dimensional overhead (top-down) shooter that features simple team gameplay and a variety of weapons.
